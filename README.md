@@ -23,3 +23,8 @@
 4. The Plane Speeed has to be adjusted (default 90"). Increase this value to slow the plane. Test by clicking the Play button in Ue4.
 5. Finally, overlap one of your spawn with the BP_PlaneTeleporter to spawn players directly in the plane. 
 6. By default, the BP_Plane and the BP_PlaneTeleporter are set to Team 1 (Attackers in Push). Tick "Is Team0" inside those two blueprints if those are used by the team 0!
+
+## MSP Pavlov
+1. The MSP allows you to use a Pavlov vanilla vehicle and turn it into a mobile spawn point.
+2. Overlap a pavlov vehicle with the BP_VehicleMSP. When the vehicle will spawn, it will be attached to the MSP blueprint for the rest of its life.
+3. The MSPTeleporter is used to teleport the player to the MSP. It is only activated when the vehicle is not moving. If the path is blocked, it will not be activated.
